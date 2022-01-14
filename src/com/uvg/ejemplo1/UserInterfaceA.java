@@ -33,7 +33,7 @@ public class UserInterfaceA {
 	 * @return
 	 */
 	private static int inputOperator(Calc actualCalc, Scanner optmemoria) {
-		System.out.println("Ingrese el operador o la letra m si desea utilizar el valor almacenado en memoria");
+		System.out.println("Ingrese el operando o la letra m si desea utilizar el valor almacenado en memoria");
 		String inputValue = optmemoria.nextLine();
 		
 		if ( inputValue.equalsIgnoreCase("m") ) {
@@ -118,7 +118,7 @@ public class UserInterfaceA {
 			
 			case 6:{
 				System.out.print("¡Hasta luego!");
-			}
+			}break;
 			
 			default:{
 				System.out.print("Opción no válida");
